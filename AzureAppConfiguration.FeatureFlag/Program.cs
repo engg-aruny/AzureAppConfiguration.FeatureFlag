@@ -7,7 +7,7 @@ Console.WriteLine("Azure App Configuration Article Demo\n");
 
 
 //Retrieve the Connection String from Azure App Configuration Resource
-const string connectionString = "Endpoint=https://app-config-blog-usage.azconfig.io;Id=Wnxq-l0-s0:yDGmY+NIW6MuFJktMRaz;Secret=66JVN5RTtuKcVH+Mn28CK97kGzmNNCSC3LlEN62aNiY=";
+const string connectionString = "{Azure_App_ConnectionString}";
 
 
 var configuration = new ConfigurationBuilder()
